@@ -41,7 +41,7 @@ MovieStoreAPI is a RESTful Web API built using ASP.NET Core that allows users to
 2. Open a terminal and navigate to the project directory.
 
 ```bash
-cd MovieStoreAPI.Data
+cd MovieStoreAPI
 ```
 
 3. Run the following command to apply the database migrations.
