@@ -2,6 +2,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+namespace MovieStoreAPI.Data.Entities;
+
 [Table("Movie", Schema = "dbo")]
 public class Movie
 {
@@ -14,5 +16,7 @@ public class Movie
     public string Cast { get; set; }
     public string Director { get; set; }
 
+    public List<int>? GenreIds { get; set; }
+    public string? GenreNames { get; set; }
     public virtual ICollection<MovieGenre> MovieGenres { get; set; }
 }
