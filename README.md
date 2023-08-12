@@ -1,7 +1,3 @@
-Certainly! Here's a sample README file for your ASP.NET Core Web API project. You can customize it further to include specific details about your project.
-
----
-
 # MovieStoreAPI
 
 MovieStoreAPI is a RESTful Web API built using ASP.NET Core that allows users to manage movie data, genres, and authentication.
